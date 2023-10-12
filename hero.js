@@ -1,7 +1,9 @@
+//variáveis
 let nomeDoHeroi = "Dabi" 
 let XP = 8560
 let nivel = ""
 
+//estrutura de decisão
 switch (true){
     case XP <= 1000:
         nivel = "Ferro"
@@ -29,4 +31,5 @@ switch (true){
         break
 }
 
+//saída
 console.log("O grandiosíssimo Herói de nome " + nomeDoHeroi + " está no nível " + nivel)
